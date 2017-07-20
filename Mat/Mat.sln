@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mat", "Mat\Mat.vcxproj", "{A6801674-300B-4302-BA68-3427DEAB989C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6801674-300B-4302-BA68-3427DEAB989C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6801674-300B-4302-BA68-3427DEAB989C}.Debug|Win32.Build.0 = Debug|Win32
+		{A6801674-300B-4302-BA68-3427DEAB989C}.Release|Win32.ActiveCfg = Release|Win32
+		{A6801674-300B-4302-BA68-3427DEAB989C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

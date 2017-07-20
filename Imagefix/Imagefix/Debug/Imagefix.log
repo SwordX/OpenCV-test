@@ -1,0 +1,13 @@
+﻿生成启动时间为 2017/7/17 16:25:52。
+     1>项目“F:\opencv\Imagefix\Imagefix\Imagefix.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Imagefix.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\opencv\imagefix\imagefix\main.cpp(140): fatal error C1075: 与左侧的 大括号“{”(位于“f:\opencv\imagefix\imagefix\main.cpp(131)”)匹配之前遇到文件结束
+     1>已完成生成项目“F:\opencv\Imagefix\Imagefix\Imagefix.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.46
