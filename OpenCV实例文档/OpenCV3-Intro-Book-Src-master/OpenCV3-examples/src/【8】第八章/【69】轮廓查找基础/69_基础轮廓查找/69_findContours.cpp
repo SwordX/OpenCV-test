@@ -15,6 +15,7 @@
 //		描述：包含程序所使用的头文件和命名空间
 //------------------------------------------------------------------------------------------------
 #include <opencv2/opencv.hpp>
+#include <opencv2\core\core.hpp>
 #include "opencv2/highgui/highgui.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 using namespace cv;
@@ -45,7 +46,7 @@ int main( int argc, char** argv )
 	//此句代码的OpenCV2版为：
 	//findContours( srcImage, contours, hierarchy,CV_RETR_CCOMP, CV_CHAIN_APPROX_SIMPLE );
 	//此句代码的OpenCV3版为：
-	findContours( srcImage, contours, hierarchy,RETR_CCOMP, CHAIN_APPROX_SIMPLE );
+	findContours( srcImage, contours, hierarchy,RETR_CCOMP, CHAIN_APPROX_SIMPLE );  //RETR_CCOMP为提取所有的轮廓
 
 	// 【6】遍历所有顶层的轮廓， 以随机颜色绘制出每个连接组件颜色
 	int index = 0;
@@ -55,7 +56,7 @@ int main( int argc, char** argv )
 		//此句代码的OpenCV2版为：
 		//drawContours( dstImage, contours, index, color, CV_FILLED, 8, hierarchy );
 		//此句代码的OpenCV3版为：
-		drawContours( dstImage, contours, index, color, FILLED, 8, hierarchy );
+		drawContours( dstImage, contours, index, color, 1 , 8, hierarchy );
 	}
 
 	//【7】显示最后的轮廓图

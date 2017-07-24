@@ -183,6 +183,7 @@ static void ShowHelpText()
 {  
 	//输出欢迎信息和OpenCV版本
 	printf("\n\n\t\t\t非常感谢购买《OpenCV3编程入门》一书！\n");
+
 	printf("\n\n\t\t\t此为本书OpenCV2版的第77个配套示例程序\n");
 	printf("\n\n\t\t\t   当前使用的OpenCV版本为：" CV_VERSION );
 	printf("\n\n  ----------------------------------------------------------------------------\n");

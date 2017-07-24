@@ -28,7 +28,7 @@ int main( )
 		Mat frame;  //定义一个Mat变量，用于存储每一帧的图像
 		capture>>frame;  //读取当前帧
 		imshow("读取视频",frame);  //显示当前帧
-		waitKey(30);  //延时30ms
+		waitKey(10);  //延时10ms
 	}  
 	return 0;     
 }  

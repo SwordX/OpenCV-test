@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/7/24 9:47:34。
+     1>项目“F:\opencv\OpenCV实例文档\OpenCV3-Intro-Book-Src-master\OpenCV3-examples\src\【8】第八章\【71】凸包检测基础\71_凸包检测基础\71_凸包检测基础.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\opencv\OpenCV实例文档\OpenCV3-Intro-Book-Src-master\OpenCV3-examples\src\【8】第八章\【71】凸包检测基础\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\71_凸包检测基础.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 71_convexHull.cpp
+         71_convexHull.cpp
+     1>f:\opencv\opencv实例文档\opencv3-intro-book-src-master\opencv3-examples\src\【8】第八章\【71】凸包检测基础\71_凸包检测基础\71_convexhull.cpp(82): error C2065: “FILLED”: 未声明的标识符
+     1>f:\opencv\opencv实例文档\opencv3-intro-book-src-master\opencv3-examples\src\【8】第八章\【71】凸包检测基础\71_凸包检测基础\71_convexhull.cpp(82): error C2065: “LINE_AA”: 未声明的标识符
+     1>f:\opencv\opencv实例文档\opencv3-intro-book-src-master\opencv3-examples\src\【8】第八章\【71】凸包检测基础\71_凸包检测基础\71_convexhull.cpp(92): error C2065: “LINE_AA”: 未声明的标识符
+     1>已完成生成项目“F:\opencv\OpenCV实例文档\OpenCV3-Intro-Book-Src-master\OpenCV3-examples\src\【8】第八章\【71】凸包检测基础\71_凸包检测基础\71_凸包检测基础.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.07
